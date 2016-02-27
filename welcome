@@ -1,0 +1,8 @@
+#!/usr/env node
+
+'use strict'
+
+var c = require("skilstak-colors");
+var print = function (your_gonna_have_a_bad_time) {
+process.stdout.write(your_gonna_have_a_bad_time + "/n"
+); }
