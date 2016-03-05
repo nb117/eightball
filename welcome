@@ -3,6 +3,12 @@
 'use strict'
 
 var c = require("skilstak-colors");
+var answers = [ "Yes.", "No.", "Maybe.", "Totally." ];
+
+var easterEgg1 =  ["war", "never changes..."];
+var easterEgg2 =  ["john", "cena or a dude named john?"]
+
 var print = function (your_gonna_have_a_bad_time) {
-process.stdout.write(your_gonna_have_a_bad_time + "\n"
-); }
+process.stdout.write(your_gonna_have_a_bad_time + "\n");}
+
+print(c.clear + c.blue + ("Greetings human! To the magic eightball!! nyeh heh heh!!")
